@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  backend:
+    image: lcdamy/dev-ops-api:1.0
+    ports:
+      - "8001:8001"
+  
+  frontend:
+    image: lcdamy/dev-ops-frontend:1.0
+    ports:
+     - "3000:5173"

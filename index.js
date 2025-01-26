@@ -19,7 +19,7 @@ const upload = multer();
 const __dirname = path.dirname(__filename);
 
 const mysql_connection = mysql.createConnection({
-    host: "host.docker.internal",
+    host: "host.docker.internal", //host.docker.internal
     user: "lcdamy",
     password: "Zudanga@1",
     database: "ngali_challenge"
